@@ -18,19 +18,24 @@ public class spaghetti extends Mod{
         Events.on(ClientLoadEvent.class, e -> {
             //show dialog upon startup
             Time.runTask(10f, () -> {
-                BaseDialog dialog = new BaseDialog("frog");
-                dialog.cont.add("behold").row();
-                //mod sprites are prefixed with the mod name (this mod is called 'example-java-mod' in its config)
+                BaseDialog dialog = new BaseDialog("Mod in development");
+                dialog.cont.add(
+                        "The mod \"SpaghettiDustry\" is in very early development and may not be very good or balanced.\n" +
+                        "If you have a suggestion or find a bug go to the mod's GitHub and submit an issue.\n" +
+                        "\n" +
+                        "Thank you for playing and I hope you enjoy my mod.\n"
+                ).row();
                 dialog.cont.image(Core.atlas.find("spaghetti-frog")).pad(20f).row();
-                dialog.cont.button("I see", dialog::hide).size(100f, 50f);
+                dialog.cont.button("Why is there a frog", dialog::hide).size(100f, 75f);
                 dialog.show();
+
             });
         });
     }
 
     @Override
     public void loadContent(){
-        Log.info("Loading some example content.");
+
     }
 
 }
