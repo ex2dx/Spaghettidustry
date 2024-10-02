@@ -1,4 +1,8 @@
 # SpaghettiDustry
-SpaghettiDustry is a [Mindustry](https://github.com/Anuken/Mindustry) java mod that just holds implementations of stuff I decided to implement because I was bored.
+SpaghettiDustry is a [Mindustry](https://github.com/Anuken/Mindustry) java mod.
 
-Feel free to use the code in this mod, complying with the license of course.
+# Present 
+Currently, the mod just has code to do things, but no sprites or any content.
+
+# Future plans
+I may or may not turn this into a campaign in the future
